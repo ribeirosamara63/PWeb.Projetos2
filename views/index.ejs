@@ -1,14 +1,58 @@
-<%- include('./partials/header') %>
-  <main>
-    <div class="ui segment">
-      <h1>Principal</h1>
-      <p>Bem-vindos a rota principal</p>
-    </div>
-  </main>
+<%- include('partials/header') %>
 
-  <footer>
-    <%- include('./partials/footer') %>
-  </footer>
+<main>
+    <section class="hero">
+        <h1>O Poder das Cores</h1>
+        <p>Aprenda como a colorimetria influencia o mundo ao seu redor.</p>
+    </section>
 
-  </body>
-</html>
+    <section class="conteudo-principal">
+        <h2>O que é Colorimetria?</h2>
+        <p>A colorimetria é o estudo científico e prático da medição e combinação das cores. Ela analisa características como temperatura, saturação e contraste para criar harmonias visuais perfeitas em diversas áreas.</p>
+    </section>
+
+    <section class="categorias">
+        <h2>Onde a Colorimetria está presente?</h2>
+        <div class="grid-cards">
+            
+            <a href="/roupas" class="card">
+                <div class="card-box">
+                    <h3>ROUPAS & MODA</h3>
+                </div>
+            </a>
+
+            <a href="/make" class="card">
+                <div class="card-box">
+                    <h3>MAQUIAGEM</h3>
+                </div>
+            </a>
+
+            <a href="/cabelo" class="card">
+                <div class="card-box">
+                    <h3>CABELO</h3>
+                </div>
+            </a>
+
+            <a href="/arquitetura" class="card">
+                <div class="card-box">
+                    <h3>ARQUITETURA & DECORAÇÃO</h3>
+                </div>
+            </a>
+
+            <a href="/arte" class="card">
+                <div class="card-box">
+                    <h3>ARTE & PINTURA</h3>
+                </div>
+            </a>
+
+            <a href="/cinema" class="card">
+                <div class="card-box">
+                    <h3>CINEMA & FOTO</h3>
+                </div>
+            </a>
+
+        </div>
+    </section>
+</main>
+
+<%- include('partials/footer') %>
